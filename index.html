@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <style>
+    table {
+        width: 20%;
+        border-collapse: collapse;
+        margin: 10px 0;
+        }
+        th, td {
+        border: 1px solid #050101;
+        padding: 4px;
+        text-align: left;
+        }
+        h1 {
+            background-color: green;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+        p.a {
+            text-align-last: justify;
+            width:fit-content;
+        }
+        p.b {
+            text-align-last: center;
+            width:fit-content;
+        }
+       a {
+        color: green;
+       }
+        </style>
+        
+</head>
+<body>
+    <div>
+        <h1>My First Web Page</h1>
+    </div>
+    <div>
+        <a href="#Webpage contents">Webpage contents</a>
+        <a href="#Information Table">Information Table</a>
+        <a href="#Contact Form">Contact Form</a> 
+    </div>
+<div>
+    <br>
+    <img src="pexels-abdghat-1631678.jpg" alt="Sunset" width="750" height="500">
+    <p class="a">This is a sample paragraph describing the content of the webpage. It explains the purpose of the page and </p><p class="b">provides some basic informations about what users can expect to find.</p>
+</div>
+<div>
+    <br>
+    <a href="https://www.techyjaunt.com/" target="_blank">Visit Techyjaunt</a>
+</div>
+<br>
+<section>
+<div>
+<h2 id="Webpage contents">Webpage contents</h2>
+<ul>
+    <li>Introduction</li>
+    <li>Table of Information</li>
+    <li>Contact Form</li>
+
+</ul>
+</div>
+</section>
+
+<section>
+<div>
+<h2 id="Information Table">Information Table</h2>
+<table>
+<thead>
+    <tr>
+        <th>Item</th>
+        <th>Description</th>
+        <th>Quantity</th>
+    </tr>
+    <tr>
+        <td>Pen</td>
+        <td>Blue ink pen</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Note books</td>
+        <td>Spiral bound notes</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Markers</td>
+        <td>Permanent markers</td>
+        <td>2</td>
+    </tr>
+</thead>
+</table>
+</div>
+</section>
+
+<section>
+<h2 id="Contact Form">Contact Form</h2>
+<div>
+    <form action="Data.collector/file" method="get">
+<br>
+<label for="Name">Name</label>
+<input type="Name" id="Name" name="user_name">
+<br>
+<br>
+    <label for="Email">Email</label>
+    <input type="Email" id="Email" name="user_email">
+<br>
+<br>
+    <label for="Password">Password</label>
+    <input type="Password" id="Password" name="user_password">
+<br>
+<br>
+<label for="Gender">Gender</label>
+<input type="radio" name="Male">Male
+<input type="radio" name="Female">Female
+<br>
+<br>
+<label for="Subscribe">Subscribe</label>
+<input type="checkbox" id="subscribe">Yes, I want to subscribe
+<br>
+<br>
+<label for="Number of items">Numbers of items</label>
+<input type="Number" id="Number of items" min="1" max="10">
+<br>
+<br>
+<label for="date">Date</label>
+<input type="date" id="date">
+<input input="Date">
+<br>
+<br>
+Message <br>
+<textarea for="message" row="4 cols="4"></textarea>
+<br><br>
+<input type="submit" value="submit">
+<input type="Reset">
+
+    </form>
+</div>
+</section>
+</body>
+</html>
